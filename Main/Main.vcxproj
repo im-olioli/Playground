@@ -156,10 +156,12 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Node\Node.cpp" />
+    <ClCompile Include="TextFormatter\TextFormatter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Array\Array.h" />
     <ClInclude Include="Node\Node.h" />
+    <ClInclude Include="TextFormatter\TextFormatter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
